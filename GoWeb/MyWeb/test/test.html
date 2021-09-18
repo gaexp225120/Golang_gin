@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Go Web</title>
+    </head>
+    <body>
+        
+        <form action="/action_page.php">
+            <label for="Book_Id">First name:</label><br>
+            <input type="text" id="Book_Id" name="Book_Id" value="John"><br>
+            <label for="Book_Name">Last name:</label><br>
+            <input type="text" id="Book_Name" name="Book_Name" value="Doe"><br><br>
+            <input type="button" onclick="getuser()" value="Go to Google" />
+        </form> 
+
+        
+    </body>
+
+
+<script src="./static/js/home.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</html>
